@@ -27,7 +27,7 @@ app.use("/api/v1", user);
 
 app.get("/", (req, res) => {
   res.send(
-    `<h1>Server is Working Fine. Please Click <a href=${process.env.FRONTEND_URL}>here</a> to visit the Frontend which is jainshreesolar.com </h1>`
+    `<h1>Server is Working Fine. Please Click <a href=${process.env.FRONTEND_URL}>here</a> to visit the Frontend </h1>`
   );
 });
 
